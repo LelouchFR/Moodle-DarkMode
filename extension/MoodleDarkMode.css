@@ -1,0 +1,15 @@
+*, *:has(:not(.vjs-poster, .vjs-text-track-display, .vjs-text-track-display > div, .vjs-iframe-blocker, .video-js)), nav.bg-white, button.bg-gray, footer.bg-dark {
+    background-color: #272838 !important;
+    color: #fff !important;
+}
+
+nav, .navbar-light {background-color: #272838 !important}
+
+a {
+    color: #F3DE8A !important;
+    transition: .2s ease;
+}
+
+a:hover {color: #EB9486 !important}
+
+.userpicture, .defaultuserpic, .vjs-text-track-display, .vjs-iframe-blocker {display: none !important}

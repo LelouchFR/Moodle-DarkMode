@@ -1,0 +1,20 @@
+{
+    "name": "Moodle DarkMode",
+    "description": "Tu as tes yeux qui sont en décomposition dès que tu ouvres Moodle ? Maintenant plus !",
+    "author": "Baptiste Zahnow",
+    "version": "1.2.5",
+    "manifest_version": 3,
+    "action": {},
+    "icons": {
+        "16": "images/16x16.png",
+        "24": "images/24x24.png",
+        "32": "images/32x32.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.moodle.monbureaunumerique.fr/*"],
+            "js": ["content.js"],
+            "css": ["MoodleDarkMode.css"]
+        }
+    ]
+}
